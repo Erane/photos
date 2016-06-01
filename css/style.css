@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+img {
+  position: absolute;
+  vertical-align: bottom;
+  top: 0;
+  width: 100%; }
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.wrap::after {
+  content: "";
+  -webkit-box-flex: 9999999999;
+      -ms-flex-positive: 9999999999;
+          flex-grow: 9999999999; }
+
+.item {
+  position: relative;
+  background: plum; }
+
+i {
+  display: block;
+  background: plum; }
